@@ -16,11 +16,7 @@ class RuPipeline(BasePipeline):
         self.embed = NewsEmbedding()
         self.morph_tagger = NewsMorphTagger(self.embed)
 
-        self.custom_lemmatizer = {
-            # "лнр": "луганский область",
-            # "днр": "донецкий область",
-            # "донбасс": "донецкий область",
-        }
+        self.custom_lemmatizer = {}
 
     def _lemmatize(self, entities, text):
         not_lemmas = list(map(lambda x: x.lower(), entities))
