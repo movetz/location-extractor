@@ -1,0 +1,6 @@
+stanza~=1.4.2
+pymorphy2~=0.9.1
+natasha~=1.5.0
+rapidfuzz~=2.13.7
+langdetect~=1.0.9
+pymorphy2-dicts-uk==2.4.1.1.1460299261
